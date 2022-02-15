@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+    color: #000000;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -779,12 +783,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F30C05;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F30C05!important;
     color: #FFFFFF!important;
 }
 
