@@ -651,11 +651,15 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
     max-width: 1000px;
+}
+
+#black {
+    color: #000000;
 }
 
 .hero-bloc-text {
@@ -697,7 +701,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    background-color: #F30C05;
+    background-color: #000000;
 }
 
 .social {
@@ -724,7 +728,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #F30C05;
 }
 
 h4 {
@@ -776,11 +780,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
-    background: #F30C05;
+    background: #000000;
     color: #FFFFFF!important;
 }
 
