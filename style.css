@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-    color: #000000;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -701,6 +697,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    background-color: #F30C05;
 }
 
 .social {
@@ -788,7 +785,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F30C05!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
