@@ -362,11 +362,15 @@ a:hover {
     z-index: 2;
 }
 
+.site-navigation a {
+    padding-right: 20px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 200px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -406,7 +410,7 @@ a:hover {
 .nav>li>.dropdown a {
     background: none!important;
     display: block;
-    padding: 14px 15px;
+    padding: 14px 40px;
 }
 
 nav .caret {
@@ -913,6 +917,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    main {
+        height: 700px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -953,6 +960,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        margin-right: 20px;
     }
     .nav>li:hover {
         background: rgba(0, 0, 0, .08);
